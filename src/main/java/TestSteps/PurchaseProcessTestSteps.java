@@ -46,6 +46,7 @@ public class PurchaseProcessTestSteps {
     public void choosesSizeAndQuantity(String arg0, String arg1) throws InterruptedException {
         HummingbirdPrintedSweaterPage onHummingbirdPrintedSweaterPage = new HummingbirdPrintedSweaterPage(driver);
         onHummingbirdPrintedSweaterPage.chooseSize(arg0);
+        Thread.sleep(2000);
         onHummingbirdPrintedSweaterPage.chooseQuantity(arg1);
     }
 

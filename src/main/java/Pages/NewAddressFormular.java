@@ -17,7 +17,7 @@ public class NewAddressFormular {
         WebElement postalCodeInput = driver.findElement(By.name("postcode"));
         WebElement countryInput = driver.findElement(By.name("id_country"));
         WebElement phoneInput = driver.findElement(By.name("phone"));
-        WebElement saveButton = driver.findElement(By.className("btn btn-primary float-xs-right"));
+        WebElement saveButton = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/form/footer/button"));
 
 
         alliasInput.click();
